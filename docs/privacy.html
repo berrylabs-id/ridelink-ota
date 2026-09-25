@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi RideLink</title>
+<meta name="description" content="Data apa yang diambil RideLink, untuk apa, dan yang tidak pernah disimpan.">
+<style>
+  :root {
+    --ink: #10275a;
+    --body: #47516b;
+    --line: #dde3ef;
+    --bg: #f4f6fb;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8edf8;
+      --body: #a8b2c8;
+      --line: #2a3350;
+      --bg: #0d1226;
+      --card: #151c36;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--body);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 16px 72px; }
+  h1 { color: var(--ink); font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
+  h2 { color: var(--ink); font-size: 20px; margin: 36px 0 8px; }
+  .updated { font-size: 14px; margin: 0 0 28px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th { color: var(--ink); }
+  .note {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 20px 0;
+  }
+  .note strong { color: var(--ink); }
+  a { color: #2f6df6; }
+  ul { padding-left: 20px; }
+  footer {
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Kebijakan Privasi RideLink</h1>
+  <p class="updated">Berlaku sejak 25 September 2026.</p>
+
+  <p>RideLink adalah aplikasi interkom untuk rombongan touring motor. Halaman ini menjelaskan data apa yang kami ambil, untuk apa dipakai, dan yang penting juga: apa yang tidak pernah kami simpan.</p>
+
+  <h2>Data yang kami ambil</h2>
+
+  <table>
+    <tr>
+      <th>Data</th>
+      <th>Untuk apa</th>
+      <th>Disimpan di mana</th>
+    </tr>
+    <tr>
+      <td>Nama dan pengenal akun Google kamu</td>
+      <td>Supaya riwayat perjalanan dan pengaturanmu ikut pindah saat ganti HP</td>
+      <td>Server kami, selama akunmu ada</td>
+    </tr>
+    <tr>
+      <td>Nama rider yang kamu isi sendiri</td>
+      <td>Ditampilkan di kartu rider dan diucapkan saat kamu bergabung ke room</td>
+      <td>HP kamu, dan dikirim ke rider lain di room yang sama</td>
+    </tr>
+    <tr>
+      <td>Posisi GPS kamu selama berada di room</td>
+      <td>Supaya rombongan bisa melihat posisimu di peta dan tahu kalau ada yang tertinggal</td>
+      <td><strong>Tidak disimpan.</strong> Diteruskan ke rider lain di room, lalu hilang</td>
+    </tr>
+    <tr>
+      <td>Suara kamu saat bicara</td>
+      <td>Supaya rombongan bisa mendengarmu</td>
+      <td><strong>Tidak disimpan dan tidak direkam.</strong> Diteruskan ke rider di room yang sama saja</td>
+    </tr>
+    <tr>
+      <td>Ringkasan perjalanan: waktu mulai dan selesai, jarak, durasi, nama rider yang ikut</td>
+      <td>Riwayat perjalanan di halaman Profil</td>
+      <td>Server kami, selama akunmu ada</td>
+    </tr>
+    <tr>
+      <td>Dongle yang pernah kamu pakai beserta nama yang kamu berikan</td>
+      <td>Halaman "Dongle saya"</td>
+      <td>Server kami, selama akunmu ada</td>
+    </tr>
+    <tr>
+      <td>Rute yang kamu simpan untuk rombongan</td>
+      <td>Supaya seluruh rombongan melihat garis rute yang sama</td>
+      <td>Server kami, selama akunmu ada</td>
+    </tr>
+  </table>
+
+  <div class="note">
+    <p><strong>Posisi rider tidak pernah masuk ke basis data kami.</strong> Ini bukan janji di atas kertas, melainkan bentuk sistemnya: posisi dan tanda SOS sengaja tidak lewat server aplikasi, supaya keduanya tetap jalan saat internet mati. Yang lewat internet hanya diteruskan antar HP di room yang sama, tanpa disimpan.</p>
+  </div>
+
+  <h2>Kenapa kami minta izin lokasi</h2>
+  <p>RideLink membaca lokasi HP kamu <strong>hanya selama kamu berada di dalam sebuah room</strong>. Di luar room, kami tidak membaca lokasi sama sekali.</p>
+  <p>Selama kamu di room, pembacaan lokasi tetap jalan walau layar HP mati, karena HP biasanya ada di holder dengan layar mati sepanjang perjalanan. Saat itu berlangsung, akan selalu ada notifikasi RideLink yang tampil di HP kamu. Kalau notifikasi itu tidak ada, berarti kami tidak sedang membaca lokasimu.</p>
+
+  <h2>Kenapa kami minta izin mikrofon</h2>
+  <p>Untuk mengirim suaramu ke rombongan. Tanpa izin ini kamu tetap bisa mendengar rider lain, hanya tidak bisa bicara. Suara tidak pernah direkam atau disimpan.</p>
+
+  <h2>Yang TIDAK kami ambil</h2>
+  <ul>
+    <li>Nomor telepon</li>
+    <li>Kontak di HP kamu</li>
+    <li>Foto, berkas, atau isi penyimpanan HP</li>
+    <li>Riwayat lokasi di luar room</li>
+    <li>Rekaman suara</li>
+  </ul>
+
+  <h2>Layanan pihak ketiga</h2>
+  <ul>
+    <li><strong>Google Sign-In</strong> untuk masuk ke akun. Kami hanya menerima pengenal akun dan namamu.</li>
+    <li><strong>Google Maps dan Google Places</strong> untuk menampilkan peta dan mencari tempat tujuan. Pencarian tempat dijalankan lewat server kami, bukan langsung dari HP.</li>
+  </ul>
+  <p>Keduanya tunduk pada <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a>.</p>
+
+  <h2>Kami tidak menjual data kamu</h2>
+  <p>Kami tidak menjual, menyewakan, atau menukarkan data kamu ke siapa pun. Kami juga tidak memakai datamu untuk iklan.</p>
+
+  <h2>Menghapus akun dan data kamu</h2>
+  <p>Kirim email ke <a href="mailto:klosing.id@gmail.com">klosing.id@gmail.com</a> dari alamat Google yang kamu pakai masuk, dan akun beserta seluruh riwayat perjalanan, daftar dongle, dan rute yang tersimpan akan dihapus. Kami balas dalam 7 hari kerja.</p>
+
+  <h2>Anak-anak</h2>
+  <p>RideLink ditujukan untuk pengendara motor, jadi tidak ditujukan untuk anak di bawah 17 tahun dan kami tidak dengan sengaja mengumpulkan data mereka.</p>
+
+  <h2>Kalau halaman ini berubah</h2>
+  <p>Tanggal berlaku di atas akan diperbarui. Kalau perubahannya menyangkut data yang kami ambil, kami beri tahu di dalam aplikasi sebelum perubahannya berlaku.</p>
+
+  <footer>
+    <p>Pertanyaan soal privasi: <a href="mailto:klosing.id@gmail.com">klosing.id@gmail.com</a></p>
+    <p><a href="index.html">Kembali ke beranda RideLink</a></p>
+  </footer>
+</div>
+</body>
+</html>
