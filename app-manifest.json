@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.10.14",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/90db4bba30994a1243d3de3d04bf23b0d78a76dd/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/90db4bba30994a1243d3de3d04bf23b0d78a76dd/app/armeabi-v7a.apk",
-  "notes": "Update 0.10.14:\n- Baru: semua titik rute bisa dicari, bukan cuma tujuan. Ketuk barisnya di \"Titik kumpul dan singgah\".\n- Baru: tombol \"Tambah titik singgah\" untuk menambah tempat istirahat lewat pencarian.\n\nDari 0.10.13:\n- Baru: ketuk satu perjalanan di riwayat untuk lihat detailnya.\n- Fix room masih tertulis \"1 rider connected\" setelah kamu keluar.\n- Fix Prestasi kosong padahal perjalanan sudah tercatat.\n\nBelum diuji: peta jalur di HP, simpan rute multi titik.\nUpdate di KEDUA HP lalu restart interkom."
+  "latest_version": "0.10.15",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/armeabi-v7a.apk",
+  "notes": "Update 0.10.15:\n- Baru: ikon mik di bar bawah dan notifikasi. Saat PTT dia mati; sekali ketuk kamu langsung bisa bicara (mode jadi Open), ketuk lagi balik ke PTT.\n- Fix room yang sedang kamu pakai tertulis \"Belum diketahui\" di tab Grup.\n- Fix dua kartu RideLink di daftar app berjalan. Sisa kartu yang lama tinggal digeser sekali.\n\nDari 0.10.14:\n- Baru: semua titik rute bisa dicari, bukan cuma tujuan, plus tombol \"Tambah titik singgah\".\n- Baru: ketuk satu perjalanan di riwayat untuk lihat detailnya.\n\nBelum diuji: peta jalur di HP, simpan rute multi titik.\nUpdate di KEDUA HP lalu restart interkom."
 }
