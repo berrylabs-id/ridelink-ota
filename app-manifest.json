@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.10.8",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/2c7ad45ba4a4743a4d25c788ac467a6c8f2eb482/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/2c7ad45ba4a4743a4d25c788ac467a6c8f2eb482/app/armeabi-v7a.apk",
-  "notes": "Update 0.10.8:\n- Fix anggota baru klub tidak muncul di layar klub. Tarik ke bawah untuk muat ulang.\n\nDari 0.10.7 (kalau belum sempat pasang):\n- Fix tombol di lembar bawah hilang kalau isinya panjang.\n- Fix back di layar bicara menutup app.\n- Fix tutup app tanpa bertanya dulu.\n- Fix dua notifikasi menetap.\n- Baru: setelan \"Redam suara app lain\" di Profil > Suara.\n- Fix ganti nama rider tidak berubah di daftar anggota klub.\n\nBelum diuji di jalan.\nUpdate di KEDUA HP lalu restart interkom."
+  "latest_version": "0.10.9",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b10c5952f9211949e1e242863ff8eb87907f31ed/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b10c5952f9211949e1e242863ff8eb87907f31ed/app/armeabi-v7a.apk",
+  "notes": "Update 0.10.9:\n- Baru: tombol \"Buat room di grup ini\" di layar klub.\n- Fix room milik klub tidak pernah muncul di layar klub.\n- Fix tulisan \"1 tersambung:\" yang menggantung.\n\nDari 0.10.8 (kalau belum sempat pasang):\n- Fix anggota baru klub tidak muncul. Tarik ke bawah untuk muat ulang.\n- Fix tombol di lembar bawah hilang kalau isinya panjang.\n- Fix back di layar bicara menutup app.\n- Baru: setelan \"Redam suara app lain\" di Profil > Suara.\n\nBelum diuji di jalan.\nUpdate di KEDUA HP lalu restart interkom."
 }
