@@ -2,5 +2,5 @@
   "latest_version": "0.10.15",
   "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/armeabi-v7a.apk",
-  "notes": "Update 0.10.15:\n• Ikon mik di bar bawah dan notifikasi: sekali ketuk langsung bisa\n  bicara, ketuk lagi kembali ke PTT.\n• Room yang sedang dipakai kini menampilkan pembuat dan jumlah\n  anggotanya di tab Grup.\n• RideLink kembali tampil sebagai satu kartu di daftar app berjalan.\n\nDari 0.10.14:\n• Semua titik rute bisa dicari, bukan cuma tujuan, dan titik singgah\n  bisa ditambah lewat pencarian.\n• Riwayat perjalanan bisa dibuka detailnya: peta jalur, jarak,\n  kecepatan rata-rata dan tertinggi."
+  "notes": "Versi 0.10.15:\n• Ikon mik di bar bawah dan notifikasi: sekali ketuk langsung bisa\n  bicara, ketuk lagi kembali ke PTT.\n• Room yang sedang dipakai kini menampilkan pembuat dan jumlah\n  anggotanya di tab Grup.\n• RideLink kembali tampil sebagai satu kartu di daftar app berjalan.\n\nVersi 0.10.14:\n• Semua titik rute bisa dicari, bukan cuma tujuan, dan titik singgah\n  bisa ditambah lewat pencarian.\n• Riwayat perjalanan bisa dibuka detailnya: peta jalur, jarak,\n  kecepatan rata-rata dan tertinggi."
 }
