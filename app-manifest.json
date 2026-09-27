@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.10.12",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/08c4ff59bb553ac653243e254a8637520b721fa6/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/08c4ff59bb553ac653243e254a8637520b721fa6/app/armeabi-v7a.apk",
-  "notes": "Update 0.10.12:\n- Fix room masih tertulis \"1 rider connected\" setelah kamu keluar.\n- Fix Prestasi kosong padahal perjalanan sudah tercatat. Sekarang muat ulang tiap tab dibuka, dan bisa ditarik ke bawah.\n- Riwayat perjalanan menjelaskan perjalanan baru masuk daftar setelah menekan Keluar.\n\nDari 0.10.10 (kalau belum sempat pasang):\n- Fix ketua kehilangan tombol cari tujuan, buat rute, dan titik kumpul saat GPS belum dapat sinyal.\n- Kartu rute menjelaskan garis lurus sebelum Simpan.\n\nBelum ada: detail perjalanan saat baris riwayat diketuk.\nUpdate di KEDUA HP lalu restart interkom."
+  "latest_version": "0.10.13",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/67cac83a10a888901c7c11d6e3b575eac98240b2/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/67cac83a10a888901c7c11d6e3b575eac98240b2/app/armeabi-v7a.apk",
+  "notes": "Update 0.10.13:\n- Baru: ketuk satu perjalanan di riwayat untuk lihat detailnya. Ada peta jalur, jarak, waktu, kecepatan rata-rata dan tertinggi.\n\nDari 0.10.12:\n- Fix room masih tertulis \"1 rider connected\" setelah kamu keluar.\n- Fix Prestasi kosong padahal perjalanan sudah tercatat.\n\nDari 0.10.10:\n- Fix ketua kehilangan tombol peta saat GPS belum dapat sinyal.\n\nBelum diuji: peta jalur di HP.\nUpdate di KEDUA HP lalu restart interkom."
 }
