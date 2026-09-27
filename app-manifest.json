@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.10.6",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/836a7e80af883e35213362f3f7a801708ec362f2/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/836a7e80af883e35213362f3f7a801708ec362f2/app/armeabi-v7a.apk",
-  "notes": "Update 0.10.6:\n- Fix tombol back di layar bicara menutup app. Sekarang cuma mengecilkan layar, room tetap jalan.\n- Fix tutup app tanpa peringatan. Sekarang bertanya dulu: Kecilkan atau Tutup aplikasi.\n- Fix dua notifikasi menetap. Notifikasi lokasi dihapus, tinggal notifikasi room.\n- Baru: setelan \"Redam suara app lain\" di Profil > Suara. Matikan supaya musik tetap keras.\n- Fix ganti nama rider tidak berubah di daftar anggota klub dan papan peringkat.\n- Fix spanduk \"Dongle tidak terjangkau\" memakan layar. Ikon awan sudah cukup.\n\nBelum diuji: DLC patah-patah, dan semua di atas belum dicoba di jalan.\nUpdate di KEDUA HP lalu restart interkom."
+  "latest_version": "0.10.7",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12ac16b15ee849166d1ab3a81e52b988e84719d9/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12ac16b15ee849166d1ab3a81e52b988e84719d9/app/armeabi-v7a.apk",
+  "notes": "Update 0.10.7:\n- Fix tombol di lembar bawah hilang kalau isinya panjang. Ini yang bikin 0.10.6 tidak bisa dipasang.\n\nDari 0.10.6 (kalau belum sempat pasang):\n- Fix back di layar bicara menutup app. Sekarang cuma mengecilkan layar.\n- Fix tutup app tanpa peringatan. Sekarang bertanya dulu.\n- Fix dua notifikasi menetap. Notifikasi lokasi dihapus.\n- Baru: setelan \"Redam suara app lain\" di Profil > Suara.\n- Fix ganti nama rider tidak berubah di daftar anggota klub.\n- Fix spanduk \"Dongle tidak terjangkau\" memakan layar.\n\nBelum diuji di jalan dan di HP sungguhan.\nUpdate di KEDUA HP lalu restart interkom."
 }
