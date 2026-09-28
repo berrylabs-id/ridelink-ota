@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.10.15",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/12548fc230f8063d9fb55295cbd9613aa9389a11/app/armeabi-v7a.apk",
-  "notes": "Versi 0.10.15:\n• Ikon mik di bar bawah dan notifikasi: sekali ketuk langsung bisa\n  bicara, ketuk lagi kembali ke PTT.\n• Room yang sedang dipakai kini menampilkan pembuat dan jumlah\n  anggotanya di tab Grup.\n• RideLink kembali tampil sebagai satu kartu di daftar app berjalan.\n\nVersi 0.10.14:\n• Semua titik rute bisa dicari, bukan cuma tujuan, dan titik singgah\n  bisa ditambah lewat pencarian.\n• Riwayat perjalanan bisa dibuka detailnya: peta jalur, jarak,\n  kecepatan rata-rata dan tertinggi."
+  "latest_version": "0.10.16",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/fb9f62b12d3d5a4fdb39ed47cb8a35cea2ce7304/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/fb9f62b12d3d5a4fdb39ed47cb8a35cea2ce7304/app/armeabi-v7a.apk",
+  "notes": "Versi 0.10.16:\n• Peta dan GPS sekarang mati sampai kamu menyalakannya sendiri, dan ada\n  tombol untuk menghentikan sesi perjalanan begitu kamu sampai.\n• Peta tidak lagi menunggu kamu masuk room, jadi GPS mulai mencari lebih\n  cepat.\n• Tekan lama di peta untuk menaruh titik kumpul tepat di tempat yang kamu\n  mau, dan hasil pencarian tujuan langsung membawa peta ke titiknya.\n• Kecepatan km/jam tampil di peta, dan arah motormu ikut ke mana kamu\n  menghadap walau sedang berhenti.\n• Room di dalam grup bisa dibuka langsung, termasuk yang masih kosong.\n• Mode hemat baterai baru di Suara: mikrofon ditutup kalau tidak ada yang\n  bicara selama 30 detik, dan terbuka lagi begitu kamu menekan Push to\n  talk.\n\nVersi 0.10.15:\n• Ikon mik di bar bawah dan notifikasi: sekali ketuk langsung bisa\n  bicara, ketuk lagi kembali ke PTT.\n• Room yang sedang dipakai kini menampilkan pembuat dan jumlah\n  anggotanya di tab Grup.\n• RideLink kembali tampil sebagai satu kartu di daftar app berjalan."
 }
