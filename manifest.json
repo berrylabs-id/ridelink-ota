@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.8",
+  "latest_version": "0.9.10",
   "min_supported": "0.9.5",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.8.bin",
-  "signature": "d2c1f57cf2f20165d4c3b9720537ee27458577067ff17fed351d28af573ca7be27c3aafeb8f75a9b4f920a386ab79b3af9298a4e045f607669ca473adc167d0e",
-  "size": 987824,
-  "sha256": "de3e6a234bc1eda7c8e62ffe07e52a01c71eb35787f021f7aee42de719201dc8",
-  "released_at": "2026-09-12T06:48:02+00:00",
-  "notes": "PENTING: memperbaiki sambungan ANTAR DONGLE. Selama ini dua dongle tidak pernah bisa saling terhubung karena bug: nomor identitas dongle salah diambil dari alamat MAC, sehingga SEMUA dongle punya nomor yang sama persis. Akibatnya tiap dongle membuang paket dari dongle lain, mengira itu gemanya sendiri. Satu dongle dengan beberapa HP tetap normal, makanya bug ini lama tidak ketahuan. Setelah update INI DI SEMUA DONGLE, syarat menyambungkan antar dongle tinggal satu: Group ID kedua dongle harus SAMA. Sisanya otomatis. Versi ini juga menambahkan cara mematikan dongle (dongle tidak punya saklar): tombol Matikan Dongle di aplikasi menu Status, plus tidur otomatis setelah 15 menit tidak ada HP tersambung. Menyalakannya lagi: tekan tombol RST di dongle, atau cabut-colok daya. Sebagai pengaman dongle juga bangun sendiri setelah 12 jam. Dongle tidak akan tidur saat update firmware berjalan atau saat masih ada HP tersambung. Tombol Matikan Dongle butuh aplikasi 0.9.25."
+  "url": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/main/firmware/0.9.10.bin",
+  "signature": "14d74c5971b8e18967ed11e9b769ea8ea4e6b9ef4a06225030d9d020af410a95c071d83b0980f4e58e337074cb47b64220ae7bd2c49473bb1580920e34f23e00",
+  "size": 1006672,
+  "sha256": "d917985da8512a5dd589affd423205f70fadcf726b1767d949b4bb37ee4ee9f9",
+  "released_at": "2026-10-05T09:12:44+00:00",
+  "notes": "Versi 0.9.10:\n• Dongle tidak lagi mati sendiri saat ditinggal sebentar, jadi tetap\n  siap saat kamu kembali. Matikan lewat saklar di dongle kalau sudah\n  selesai.\n• Beberapa dongle kini lebih andal saling terhubung dalam satu\n  rombongan.\n• Keamanan dongle diperketat."
 }
