@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kebijakan Privasi RideLink</title>
 <meta name="description" content="Data apa yang diambil RideLink, untuk apa, dan yang tidak pernah disimpan.">
+<!--
+  Every row was checked against the code on 2026-10-06 (ridelink-go
+  migrations, the app manifest and pubspec). A change that makes a row
+  untrue updates this page in the same release.
+-->
 <style>
   :root {
     --ink: #10275a;
@@ -44,6 +49,7 @@
     padding: 10px 12px;
     border-bottom: 1px solid var(--line);
     vertical-align: top;
+    overflow-wrap: anywhere;
   }
   th { color: var(--ink); }
   .note {
@@ -67,7 +73,7 @@
 <body>
 <div class="wrap">
   <h1>Kebijakan Privasi RideLink</h1>
-  <p class="updated">Berlaku sejak 25 September 2026.</p>
+  <p class="updated">Berlaku sejak 6 Oktober 2026 (versi sebelumnya 25 September 2026).</p>
 
   <p>RideLink adalah aplikasi interkom untuk rombongan touring motor. Halaman ini menjelaskan data apa yang kami ambil, untuk apa dipakai, dan yang penting juga: apa yang tidak pernah kami simpan.</p>
 
@@ -90,6 +96,11 @@
       <td>HP kamu, dan dikirim ke rider lain di room yang sama</td>
     </tr>
     <tr>
+      <td>Nama pengguna (username) yang kamu pilih</td>
+      <td>Supaya rider lain bisa menemukanmu di Feed dan klub</td>
+      <td>Server kami, selama akunmu ada</td>
+    </tr>
+    <tr>
       <td>Posisi GPS kamu selama berada di room</td>
       <td>Supaya rombongan bisa melihat posisimu di peta dan tahu kalau ada yang tertinggal</td>
       <td><strong>Tidak disimpan.</strong> Diteruskan ke rider lain di room, lalu hilang</td>
@@ -100,8 +111,8 @@
       <td><strong>Tidak disimpan dan tidak direkam.</strong> Diteruskan ke rider di room yang sama saja</td>
     </tr>
     <tr>
-      <td>Ringkasan perjalanan: waktu mulai dan selesai, jarak, durasi, nama rider yang ikut</td>
-      <td>Riwayat perjalanan di halaman Profil</td>
+      <td>Perjalanan yang kamu rekam: jejak rute, waktu mulai dan selesai, jarak, durasi, kecepatan tertinggi, nama rider yang ikut</td>
+      <td>Riwayat dan berbagi perjalanan, papan peringkat klub, lencana, dan medali wilayah (provinsi dan destinasi yang pernah kamu lewati)</td>
       <td>Server kami, selama akunmu ada</td>
     </tr>
     <tr>
@@ -114,6 +125,21 @@
       <td>Supaya seluruh rombongan melihat garis rute yang sama</td>
       <td>Server kami, selama akunmu ada</td>
     </tr>
+    <tr>
+      <td>Yang kamu bagikan: postingan, foto yang kamu pilih sendiri, komentar, reaksi, pesan dan event klub, laporan dan blokir</td>
+      <td>Feed, klub, dan menjaga keamanan komunitas</td>
+      <td>Server kami (foto di penyimpanan Cloudflare), sampai kamu menghapusnya atau akunmu dihapus</td>
+    </tr>
+    <tr>
+      <td>Token notifikasi HP kamu</td>
+      <td>Mengirim pemberitahuan klub dan SOS</td>
+      <td>Server kami, sampai kamu keluar akun</td>
+    </tr>
+    <tr>
+      <td>Alamat IP</td>
+      <td>Menjaga layanan tetap berjalan dan aman</td>
+      <td>Log server, dihapus berkala</td>
+    </tr>
   </table>
 
   <div class="note">
@@ -121,8 +147,11 @@
   </div>
 
   <h2>Kenapa kami minta izin lokasi</h2>
-  <p>RideLink membaca lokasi HP kamu <strong>hanya selama kamu berada di dalam sebuah room</strong>. Di luar room, kami tidak membaca lokasi sama sekali.</p>
-  <p>Selama kamu di room, pembacaan lokasi tetap jalan walau layar HP mati, karena HP biasanya ada di holder dengan layar mati sepanjang perjalanan. Saat itu berlangsung, akan selalu ada notifikasi RideLink yang tampil di HP kamu. Kalau notifikasi itu tidak ada, berarti kami tidak sedang membaca lokasimu.</p>
+  <p>RideLink membaca lokasi HP kamu untuk dua hal: menampilkan posisimu ke rombongan saat kamu di dalam room, dan merekam perjalanan saat peta menyala, termasuk perjalanan sendirian tanpa room. Posisi langsung hanya diteruskan ke rider di room yang sama dan tidak disimpan. Yang disimpan hanya jejak perjalanan yang kamu rekam.</p>
+  <p>Pembacaan lokasi tetap jalan walau layar HP mati, karena HP biasanya ada di holder dengan layar mati sepanjang perjalanan. Saat itu berlangsung, akan selalu ada notifikasi RideLink yang tampil di HP kamu. Kalau notifikasi itu tidak ada, berarti kami tidak sedang membaca lokasimu.</p>
+
+  <h2>Kenapa kami minta izin kamera</h2>
+  <p>Untuk memindai kode QR undangan room dan klub, dan untuk memotret foto yang ingin kamu bagikan. Foto hanya diunggah kalau kamu sendiri yang memilih membagikannya.</p>
 
   <h2>Kenapa kami minta izin mikrofon</h2>
   <p>Untuk mengirim suaramu ke rombongan. Tanpa izin ini kamu tetap bisa mendengar rider lain, hanya tidak bisa bicara. Suara tidak pernah direkam atau disimpan.</p>
@@ -131,8 +160,8 @@
   <ul>
     <li>Nomor telepon</li>
     <li>Kontak di HP kamu</li>
-    <li>Foto, berkas, atau isi penyimpanan HP</li>
-    <li>Riwayat lokasi di luar room</li>
+    <li>Foto atau berkas yang tidak kamu pilih sendiri untuk dibagikan</li>
+    <li>Alamat email kamu (tidak disimpan di server kami)</li>
     <li>Rekaman suara</li>
   </ul>
 
@@ -140,20 +169,23 @@
   <ul>
     <li><strong>Google Sign-In</strong> untuk masuk ke akun. Kami hanya menerima pengenal akun dan namamu.</li>
     <li><strong>Google Maps dan Google Places</strong> untuk menampilkan peta dan mencari tempat tujuan. Pencarian tempat dijalankan lewat server kami, bukan langsung dari HP.</li>
+    <li><strong>Firebase Cloud Messaging</strong> (Google) untuk mengirim notifikasi.</li>
+    <li><strong>Cloudflare</strong> untuk menyimpan foto yang kamu bagikan.</li>
+    <li><strong>CARTO</strong> untuk gambar peta di video berbagi perjalanan. CARTO hanya menerima permintaan potongan peta di sekitar rute, tanpa identitasmu.</li>
   </ul>
-  <p>Keduanya tunduk pada <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a>.</p>
+  <p>Layanan Google tunduk pada <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a>. Aplikasi tidak memakai alat analitik atau pelacak iklan apa pun.</p>
 
   <h2>Kami tidak menjual data kamu</h2>
   <p>Kami tidak menjual, menyewakan, atau menukarkan data kamu ke siapa pun. Kami juga tidak memakai datamu untuk iklan.</p>
 
   <h2>Menghapus akun dan data kamu</h2>
-  <p>Kirim email ke <a href="mailto:klosing.id@gmail.com">klosing.id@gmail.com</a> dari alamat Google yang kamu pakai masuk, dan akun beserta seluruh riwayat perjalanan, daftar dongle, dan rute yang tersimpan akan dihapus. Kami balas dalam 7 hari kerja. Langkahnya beserta rincian apa saja yang dihapus ada di <a href="hapus-akun.html">halaman hapus akun</a>.</p>
+  <p>Kirim email ke <a href="mailto:klosing.id@gmail.com">klosing.id@gmail.com</a> dari alamat Google yang kamu pakai masuk, dan akun beserta riwayat perjalanan, daftar dongle, rute, dan semua yang kamu bagikan akan dihapus. Kami balas dalam 7 hari kerja. Langkahnya beserta rincian apa saja yang dihapus ada di <a href="hapus-akun.html">halaman hapus akun</a>.</p>
 
   <h2>Anak-anak</h2>
   <p>RideLink ditujukan untuk pengendara motor, jadi tidak ditujukan untuk anak di bawah 17 tahun dan kami tidak dengan sengaja mengumpulkan data mereka.</p>
 
   <h2>Kalau halaman ini berubah</h2>
-  <p>Tanggal berlaku di atas akan diperbarui. Kalau perubahannya menyangkut data yang kami ambil, kami beri tahu di dalam aplikasi sebelum perubahannya berlaku.</p>
+  <p>Tanggal berlaku di atas akan diperbarui. Kalau perubahannya menyangkut data yang kami ambil, kami tulis di catatan versi aplikasi.</p>
 
   <footer>
     <p>Pertanyaan soal privasi: <a href="mailto:klosing.id@gmail.com">klosing.id@gmail.com</a></p>
