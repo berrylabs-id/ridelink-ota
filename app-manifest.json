@@ -1,8 +1,8 @@
 {
-  "latest_version": "1.0.4",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b41e36dff83d32430be808fb4c9879438ba4a6db/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b41e36dff83d32430be808fb4c9879438ba4a6db/app/armeabi-v7a.apk",
-  "sha256_arm64": "a4d0a3169c2afb66800b7a698c2d10fcb89f7839cadf5ba0f66ea2adb754fac0",
-  "sha256_armv7": "5c63249a5c54daa0a2d6cafae3bff4687191c05035c9e37f0c084269d8e1e066",
-  "notes": "Versi 1.0.4:\n• Suara, posisi, dan SOS yang lewat internet kini terenkripsi.\n• Foto di obrolan klub tampil utuh dan bisa diketuk untuk\n  dilihat layar penuh.\n\nVersi 1.0.3:\n• Hapus akun dari dalam app: buka Profil, lalu Kelola akun.\n\nVersi 1.0.2:\n• Peta di video bagikan perjalanan kini memakai kunci yang\n  terkunci ke app RideLink, tidak bisa dipakai app lain.\n\nVersi 1.0.1:\n• Kartu Bulan ini punya gambar malam di tema gelap.\n• Bingkai medali destinasi, provinsi, dan gabungan kini rapi dan\n  seukuran medali pencapaian. Provinsi berbentuk perisai.\n\nVersi 1.0.0:\n• Kartu Jalan vs istirahat kini bernama Waktu perjalanan.\n• Medali yang sudah didapat tidak lagi tampil abu-abu saat sinyal\n  lemah.\n• Peringkat dan lencana terbaru di dashboard langsung berubah\n  setelah perjalanan selesai."
+  "latest_version": "1.0.5",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/efe657409810062c2b13c21eeee6eb249c14d212/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/efe657409810062c2b13c21eeee6eb249c14d212/app/armeabi-v7a.apk",
+  "sha256_arm64": "d18568eea847344d8aa945a8e33dd1fa24b76467e19502188e29eb7bc43d41bd",
+  "sha256_armv7": "c8bfee45e4edf8ec01b959ec42c4376a7adf4cc7873384a71f364e852eeb0480",
+  "notes": "Versi 1.0.5:\n• Obrolan klub: sebut teman dengan @nama, balas pesan dengan\n  geser ke kanan, dan titik merah di ikon Klub saat ada pesan baru.\n• Pasang foto profil dan foto motormu sendiri di Profil.\n• Rider yang HP-nya mati atau hilang sinyal tetap tampil abu-abu\n  di peta, di posisi terakhirnya.\n• Pin peta baru untuk titik kumpul, titik singgah, dan tujuan.\n• Tujuan event klub kini dipilih di peta.\n• Bagikan rekor kecepatan sebagai gambar speedometer, bisa\n  memakai fotomu sendiri sebagai latar.\n• Halaman Hemat baterai di Profil untuk mik siaga dan peta.\n\nVersi 1.0.4:\n• Suara, posisi, dan SOS yang lewat internet kini terenkripsi.\n• Foto di obrolan klub tampil utuh dan bisa diketuk untuk\n  dilihat layar penuh.\n\nVersi 1.0.3:\n• Hapus akun dari dalam app: buka Profil, lalu Kelola akun.\n\nVersi 1.0.2:\n• Peta di video bagikan perjalanan kini memakai kunci yang\n  terkunci ke app RideLink, tidak bisa dipakai app lain.\n\nVersi 1.0.1:\n• Kartu Bulan ini punya gambar malam di tema gelap.\n• Bingkai medali destinasi, provinsi, dan gabungan kini rapi dan\n  seukuran medali pencapaian. Provinsi berbentuk perisai."
 }
