@@ -1,8 +1,8 @@
 {
-  "latest_version": "1.0.3",
-  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/fe9826c44222c3f3bdcc3149fcb21a65ac7f7332/app/arm64-v8a.apk",
-  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/fe9826c44222c3f3bdcc3149fcb21a65ac7f7332/app/armeabi-v7a.apk",
-  "sha256_arm64": "1c77dfbc02074f5196ee7db65f57f490076948d7bf15acf476879b493002d2a0",
-  "sha256_armv7": "546657f05a61b3eafff0eb260d6ea1fe93b04e23a8ca5e079550cde6de425fd2",
-  "notes": "Versi 1.0.3:\n• Hapus akun dari dalam app: buka Profil, lalu Kelola akun.\n\nVersi 1.0.2:\n• Peta di video bagikan perjalanan kini memakai kunci yang\n  terkunci ke app RideLink, tidak bisa dipakai app lain.\n\nVersi 1.0.1:\n• Kartu Bulan ini punya gambar malam di tema gelap.\n• Bingkai medali destinasi, provinsi, dan gabungan kini rapi dan\n  seukuran medali pencapaian. Provinsi berbentuk perisai.\n\nVersi 1.0.0:\n• Kartu Jalan vs istirahat kini bernama Waktu perjalanan.\n• Medali yang sudah didapat tidak lagi tampil abu-abu saat sinyal\n  lemah.\n• Peringkat dan lencana terbaru di dashboard langsung berubah\n  setelah perjalanan selesai.\n\nVersi 0.10.37:\n• Kartu Bulan ini di dashboard Ride kini berganti gambar tiap\n  bulan: rute berkelok, speedometer, jalan lurus, lingkaran ikon,\n  dan cincin.\n• Detail event klub punya tombol Tambahkan ke kalender, langsung\n  ke kalender di HP.\n• Rute tersimpan dan lencana terbaru langsung muncul setelah masuk\n  akun.\n• Gangguan sebentar di server tidak lagi membuatmu keluar dari\n  akun."
+  "latest_version": "1.0.4",
+  "url_arm64": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b41e36dff83d32430be808fb4c9879438ba4a6db/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/b41e36dff83d32430be808fb4c9879438ba4a6db/app/armeabi-v7a.apk",
+  "sha256_arm64": "a4d0a3169c2afb66800b7a698c2d10fcb89f7839cadf5ba0f66ea2adb754fac0",
+  "sha256_armv7": "5c63249a5c54daa0a2d6cafae3bff4687191c05035c9e37f0c084269d8e1e066",
+  "notes": "Versi 1.0.4:\n• Suara, posisi, dan SOS yang lewat internet kini terenkripsi.\n• Foto di obrolan klub tampil utuh dan bisa diketuk untuk\n  dilihat layar penuh.\n\nVersi 1.0.3:\n• Hapus akun dari dalam app: buka Profil, lalu Kelola akun.\n\nVersi 1.0.2:\n• Peta di video bagikan perjalanan kini memakai kunci yang\n  terkunci ke app RideLink, tidak bisa dipakai app lain.\n\nVersi 1.0.1:\n• Kartu Bulan ini punya gambar malam di tema gelap.\n• Bingkai medali destinasi, provinsi, dan gabungan kini rapi dan\n  seukuran medali pencapaian. Provinsi berbentuk perisai.\n\nVersi 1.0.0:\n• Kartu Jalan vs istirahat kini bernama Waktu perjalanan.\n• Medali yang sudah didapat tidak lagi tampil abu-abu saat sinyal\n  lemah.\n• Peringkat dan lencana terbaru di dashboard langsung berubah\n  setelah perjalanan selesai."
 }
