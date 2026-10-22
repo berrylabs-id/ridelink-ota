@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.13",
+  "latest_version": "0.9.14",
   "min_supported": "0.9.5",
-  "url": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/main/firmware/0.9.13.bin",
-  "signature": "0f7d56b82ce30ffd495076671551a3cfe27ceb8e6c041a114d63f3ef8b7503c07f8fd38c6863bb8fef036654361bedbd75549bf3bf1aca16943f669bcbbfec0f",
-  "size": 1012512,
-  "sha256": "4d10400a552bfe04dc60b3b91d2b717dc1909b8dbfc1bf846b22c3588ae699e3",
-  "released_at": "2026-10-21T19:11:24+00:00",
-  "notes": "Versi 0.9.13:\n• Persen baterai dongle kini tampil di HP, dengan ikon petir saat\n  dicas.\n\nVersi 0.9.10:\n• Dongle tidak lagi mati sendiri saat ditinggal sebentar, jadi tetap\n  siap saat kamu kembali. Matikan lewat saklar di dongle kalau sudah\n  selesai.\n• Beberapa dongle kini lebih andal saling terhubung dalam satu\n  rombongan.\n• Keamanan dongle diperketat."
+  "url": "https://raw.githubusercontent.com/berrylabs-id/ridelink-ota/main/firmware/0.9.14.bin",
+  "signature": "a8f3d7e5242dcf9cde790eb8e5749442edeeb6d6ac10d0b2bb3d1d5e46b956f3308b5c6eb18692b377c2339f1e37333c93c4193415077b876184533c69fcb30a",
+  "size": 1012576,
+  "sha256": "42dd8cd53758abc895bfcbe4f88ed7cea7853f7431d39178e420d25bbcaa0083",
+  "released_at": "2026-10-22T07:05:29+00:00",
+  "notes": "Versi 0.9.14:\n• Dongle kini memberi tahu HP berapa rider yang bisa tersambung.\n\nVersi 0.9.13:\n• Persen baterai dongle kini tampil di HP, dengan ikon petir saat\n  dicas.\n\nVersi 0.9.10:\n• Dongle tidak lagi mati sendiri saat ditinggal sebentar, jadi tetap\n  siap saat kamu kembali. Matikan lewat saklar di dongle kalau sudah\n  selesai.\n• Beberapa dongle kini lebih andal saling terhubung dalam satu\n  rombongan.\n• Keamanan dongle diperketat."
 }
